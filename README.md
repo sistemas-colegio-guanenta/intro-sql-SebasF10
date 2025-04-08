@@ -67,7 +67,7 @@
 
 9. Mostrar el precio promedio de los artículos cuyo código de fabricante sea fab02
 
-`![alt text](image.png)`
+`!SELECT AVG(precio_articulo) AS precio_promedio FROM articulo WHERE id_fabricante = 'fab02';`
 
 ![Consulta 9](img/consulta_9.png  "Consulta 9")
 
