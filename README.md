@@ -55,7 +55,7 @@
 
 ![Consulta 6](img/consulta_6.png  "Consulta 6")
 
-7. Odtener el nombre y el precio de los articulos en dolares.
+7. Obtener el nombre y el precio de los articulos en dolares.
 
 `SELECT nombre_articulo AS articulo, precio_articulo / 4300 AS Precio_USD FROM articulo`
 
@@ -64,3 +64,9 @@
 `SELECT AVG(precio_articulo) AS precio_promedio FROM articulo;`
 
 ![Consulta 8](img/consulta_8.png  "Consulta 8")
+
+9. Mostrar el precio promedio de los artículos cuyo código de fabricante sea fab02
+
+`SELECT AVG(precio_articulo) AS precio_promedio FROM articulo WHERE id_fabricante = 'fab02';`
+
+![Consulta 9](img/consulta_9.png  "Consulta 9![alt text](image.png)")
